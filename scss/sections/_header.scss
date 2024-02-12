@@ -1,0 +1,30 @@
+.header {
+    background-color: $headerBg;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.container {
+}
+.header__content {
+
+}
+.search__container {
+}
+.search__bar {
+    margin: 0 auto;
+    max-width: 664px;
+}
+
+.search__bar-input{
+    width: 100%;
+    color: $searchInput;
+    background-color: $searchInput;
+    border-radius: 10px;
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
