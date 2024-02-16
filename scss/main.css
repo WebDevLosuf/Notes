@@ -201,4 +201,14 @@ body {
   color: black;
   padding-left: 25px;
   padding-right: 25px;
+  border: solid transparent 3px;
+}
+@media (hover: hover) {
+  .search__bar-input:hover {
+    cursor: pointer;
+    background-color: #B4AC87;
+  }
+}
+.search__bar-input:focus {
+  border-color: #c77670;
 }/*# sourceMappingURL=main.css.map */

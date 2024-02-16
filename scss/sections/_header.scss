@@ -27,4 +27,10 @@
     color: black;
     padding-left: 25px;
     padding-right: 25px;
+    border: solid transparent 3px;
+
+    @include hover-input($hoverInput);
+    @include focus($deleatbg);
+    
 }
+

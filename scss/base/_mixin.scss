@@ -1,0 +1,14 @@
+@mixin hover-input($color){
+    @media (hover:hover){
+        &:hover{
+        cursor: pointer;
+        background-color: $color;
+    }
+    }
+}
+
+@mixin focus($color){
+    &:focus{
+        border-color: $color;
+    }
+}
