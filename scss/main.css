@@ -54,7 +54,6 @@ input, textarea, button, select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  background-color: transparent;
 }
 
 input::-ms-clear {
@@ -64,8 +63,6 @@ input::-ms-clear {
 button, input[type=submit] {
   display: inline-block;
   box-shadow: none;
-  background-color: transparent;
-  background: none;
   cursor: pointer;
 }
 
@@ -211,4 +208,60 @@ body {
 }
 .search__bar-input:focus {
   border-color: #c77670;
+}
+
+.notes {
+  padding-top: 70px;
+}
+
+.notes__content {
+  width: 664px;
+  min-height: 382px;
+  padding: 15px 20px;
+  background-color: #E3DBAF;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.form-new-note {
+  background-color: #E3DBAF;
+  min-width: 438px;
+  padding-bottom: 10px;
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+
+.note {
+  min-width: 438px;
+  padding: 14px 23px;
+  border-radius: 10px;
+}
+
+.note--new-input {
+  background-color: #F5F5F5;
+}
+
+.btn {
+  min-width: 159px;
+  padding: 14px 23px;
+  border-radius: 10px;
+}
+
+.btn--add {
+  background-color: #F5F5F5;
+}
+
+.list-notes__item {
+  display: flex;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+}
+
+.note--added {
+  background-color: #CBC18B;
+}
+
+.btn--delete {
+  background-color: #c77670;
 }/*# sourceMappingURL=main.css.map */
