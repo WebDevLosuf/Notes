@@ -25,6 +25,9 @@
 }
 .note--new-input {
     background-color: $noteInput;
+    border: solid transparent 3px;
+    @include hover-input($hoverInput);
+    @include focus($deleatbg);
 }
 .btn {
     min-width: 159px;
@@ -32,7 +35,8 @@
     border-radius: 10px;
 }
 .btn--add {
-    background-color: $noteInput;
+    background-color: #5e8d5a;
+    @include hover-input($submitbtn);
 }
 
 .list-notes__item {
@@ -49,4 +53,5 @@
 
 .btn--delete{
     background-color: $deleatbg;
+    @include hover-input(#c75850);
 }

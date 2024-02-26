@@ -240,6 +240,16 @@ body {
 
 .note--new-input {
   background-color: #F5F5F5;
+  border: solid transparent 3px;
+}
+@media (hover: hover) {
+  .note--new-input:hover {
+    cursor: pointer;
+    background-color: #B4AC87;
+  }
+}
+.note--new-input:focus {
+  border-color: #c77670;
 }
 
 .btn {
@@ -249,7 +259,13 @@ body {
 }
 
 .btn--add {
-  background-color: #F5F5F5;
+  background-color: #5e8d5a;
+}
+@media (hover: hover) {
+  .btn--add:hover {
+    cursor: pointer;
+    background-color: #70ac6c;
+  }
 }
 
 .list-notes__item {
@@ -264,4 +280,10 @@ body {
 
 .btn--delete {
   background-color: #c77670;
+}
+@media (hover: hover) {
+  .btn--delete:hover {
+    cursor: pointer;
+    background-color: #c75850;
+  }
 }/*# sourceMappingURL=main.css.map */
