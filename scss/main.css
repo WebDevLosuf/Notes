@@ -241,6 +241,12 @@ body {
 .note--new-input {
   background-color: #F5F5F5;
   border: solid transparent 3px;
+  line-height: 1.1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 @media (hover: hover) {
   .note--new-input:hover {

@@ -10,6 +10,7 @@
     background-color: $headerBg;
     margin: 0 auto;
     border-radius: 10px;
+
 }
 .form-new-note {
     background-color: $headerBg;
@@ -28,6 +29,13 @@
     border: solid transparent 3px;
     @include hover-input($hoverInput);
     @include focus($deleatbg);
+    line-height: 1.1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    // font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .btn {
     min-width: 159px;
